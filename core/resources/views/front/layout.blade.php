@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="{{asset('assets/front/css/default.css')}}">
     <!--====== Style css ======-->
     <link rel="stylesheet" href="{{asset('assets/front/css/style.css')}}">
+
+    <link rel="stylesheet" href="{{asset('assets/front/css/sajinstyle.css')}}">
     @if ($rtl == 1)
         <link rel="stylesheet" href="{{asset('assets/front/css/rtl-style.css')}}">
     @endif
@@ -33,7 +35,7 @@
         .back-to-top {
             left: auto;
             right: 30px;
-        }   
+        }
     </style>
     @endif
     <style>
@@ -70,7 +72,7 @@
                 </div>
             </div>
         </div>
-    </section><!--====== End Breadcrumbs-section ======-->    
+    </section><!--====== End Breadcrumbs-section ======-->
 @endif
 
 @yield('content')
@@ -96,6 +98,7 @@
 <!--====== Jquery js ======-->
 <script src="{{asset('assets/front/js/vendor/modernizr-3.6.0.min.js')}}"></script>
 <script src="{{asset('assets/front/js/vendor/jquery-3.4.1.min.js')}}"></script>
+<script src="{{asset('assets/front/js/sajincustom.js')}}"></script>
 <!--====== Bootstrap js ======-->
 <script src="{{asset('assets/front/js/plugin.min.js')}}"></script>
 
@@ -159,7 +162,7 @@
         });
     </script>
     @endif
-    
+
     @if ($bs->is_tawkto == 1)
 
         @php

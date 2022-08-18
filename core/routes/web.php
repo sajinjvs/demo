@@ -232,7 +232,7 @@ Route::domain($domain)->group(function() {
             Route::get('team_section', 'User\BasicController@teamSection')->name('user.team_section');
             Route::post('update_team_section/{language}', 'User\BasicController@updateTeamSection')->name('user.update_team_section');
             // team section-heading route end
-            
+
             // teams route start
             Route::get('team_section/create_member', 'User\MemberController@createMember')->name('user.team_section.create_member');
             Route::post('team_section/store_member', 'User\MemberController@storeMember')->name('user.team_section.store_member');
@@ -961,5 +961,13 @@ Route::group(['domain' => $domain, 'prefix' => $prefix], function() {
     Route::group(['middleware' => ['routeAccess:Custom Page']], function () {
         Route::get('/{slug}', 'Front\FrontendController@userCPage')->name('front.user.cpage');
     });
-});
 
+
+   /* Route::get('/', function () {
+        return view('front.feature');
+    });*/
+
+route::view('/','front.feature');
+
+
+});

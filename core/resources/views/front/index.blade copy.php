@@ -18,10 +18,10 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="hero-content">
-                        <h1 class="h1">
+                        <span class="span">
                             {{$be->hero_section_title}}
-                        </h1>
-                        <h2>{{$be->hero_section_text}}</h2>
+</span>
+                        <h1>{{$be->hero_section_text}}</h1>
                         <ul>
                             @if(!empty($be->hero_section_button_url))
                                 <li>

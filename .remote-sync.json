@@ -1,0 +1,19 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "transport": "ftp",
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "ftp.versasoftsolutions.com",
+  "port": "21",
+  "target": "/shadobooksweb/",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "u573586708.sajinproducts",
+  "password": "Sajinproducts@213",
+  "watch": []
+}
