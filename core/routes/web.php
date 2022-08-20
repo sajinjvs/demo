@@ -29,6 +29,8 @@ Route::domain($domain)->group(function() {
         Route::get('/faqs', 'Front\FrontendController@faqs')->name('front.faq.view');
         Route::get('/blogs', 'Front\FrontendController@blogs')->name('front.blogs');
         Route::get('/pricing', 'Front\FrontendController@pricing')->name('front.pricing');
+        Route::get('/modules-one', 'Front\FrontendController@modulesone')->name('front.modulesone');
+        Route::get('/modules-two', 'Front\FrontendController@modulestwo')->name('front.modulestwo');
         Route::get('/blog-details/{slug}/{id}', 'Front\FrontendController@blogdetails')->name('front.blogdetails');
         Route::get('/registration/step-1/{status}/{id}', 'Front\FrontendController@step1')->name('front.register.view');
         Route::get('/check/{username}/username', 'Front\FrontendController@checkUsername')->name('front.username.check');
@@ -963,11 +965,12 @@ Route::group(['domain' => $domain, 'prefix' => $prefix], function() {
     });
 
 
-   /* Route::get('/', function () {
-        return view('front.feature');
-    });*/
+    Route::get('/', function () {
+        return view('front.modules-one');
+    });
 
-route::view('/','front.feature');
-
-
+// route::view('/','front.feature');
+ /*Route::get('', function () {
+    return view('front.modules-one');
+}*/
 });

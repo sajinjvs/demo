@@ -40,7 +40,8 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="hero-img">
-                        <img data-src="{{asset('assets/front/img/'.$be->hero_img)}}" class="img-fluid lazy" alt="">
+                        <!-- <img data-src="{{asset('assets/front/img/'.$be->hero_img)}}" class="img-fluid lazy" alt=""> -->
+                        <img data-src="{{asset('assets/front/img/customfront.gif')}}" class="img-fluid lazy" alt="">
                     </div>
                 </div>
             </div>

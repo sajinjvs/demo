@@ -8,3 +8,9 @@ if (document.body.contains(ul)) {
     };
 }
 
+const more = document.querySelectorAll('.more')
+for(let i = 0; i<more.length; i++){
+    more[i].addEventListener('click', ()=>{
+        more[i].parentNode.classList.toggle('active')
+    })
+}

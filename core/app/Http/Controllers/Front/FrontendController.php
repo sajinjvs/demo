@@ -259,6 +259,30 @@ class FrontendController extends Controller
 
         return view('front.pricing', $data);
     }
+    public function modulesone(Request $request)
+    {
+
+
+        return view('front.modules-one');
+    }
+
+
+    public function modulestwo(Request $request)
+    {
+
+
+        return view('front.modules-two');
+    }
+
+    public function modulesthree(Request $request)
+    {
+
+
+        return view('front.modules-three');
+    }
+
+
+
 
     // blog section start
     public function blogs(Request $request)
