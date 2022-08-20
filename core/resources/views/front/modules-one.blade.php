@@ -30,7 +30,7 @@
                             <br><br>It is also developed to give you a clear picture of real-time cash flow that could save a lot of time, resources and operational costs incurred in handling multiple teams under multiple wings. <br><br>
                             Since they offer complete integration assistance, you can practically bring all your finance and accounting data under one roof.
                         </p>
-  <a class="more"></a>
+
                         </div>
 
                     </div>

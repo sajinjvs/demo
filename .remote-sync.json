@@ -11,6 +11,7 @@
   "target": "/shadobooksweb/",
   "ignore": [
     ".remote-sync.json",
+    ".env",
     ".git/**"
   ],
   "username": "u573586708.sajinproducts",
