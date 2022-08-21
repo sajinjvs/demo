@@ -1,12 +1,18 @@
 @extends('front.layout')
 
 @section('pagename')
-    - {{__('Pricing')}}
+    - {{__('Modules Two')}}
 @endsection
 
 @section('meta-description', !empty($seo) ? $seo->pricing_meta_description : '')
 @section('meta-keywords', !empty($seo) ? $seo->pricing_meta_keywords : '')
 
+@section('breadcrumb-title')
+    {{__('Modules Two')}}
+@endsection
+@section('breadcrumb-link')
+    {{__('Modules Two')}}
+@endsection
 
 @section('content')
 

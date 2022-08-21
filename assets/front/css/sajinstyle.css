@@ -17,3 +17,9 @@
     font-size: 20px;
     line-height: 40px;
 }
+
+.features-item {
+    pointer-events: none;
+    cursor: default;
+    opacity: 1 !important;
+}

@@ -1,12 +1,18 @@
 @extends('front.layout')
 
 @section('pagename')
-    - {{__('Pricing')}}
+    - {{__('Modules One')}}
 @endsection
 
 @section('meta-description', !empty($seo) ? $seo->pricing_meta_description : '')
 @section('meta-keywords', !empty($seo) ? $seo->pricing_meta_keywords : '')
 
+@section('breadcrumb-title')
+    {{__('Modules One')}}
+@endsection
+@section('breadcrumb-link')
+    {{__('Modules One')}}
+@endsection
 
 @section('content')
 
@@ -16,7 +22,6 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="section-title-one section-title-two">
-                                                <span class="span">Features</span>
                                             </div>
                 </div>
             </div>
@@ -26,6 +31,7 @@
 
                             <h4>Dashboards</h4>
                             <p>Shadobooks offer an intuitive dashboard that helps you with a brief overview of all your sales pipelines, KPIs, lead management, project reminders, and invoice regulations. <br><br>
+
                             The dashboard is also developed to be intelligent to shed light on the accounting metrics that matter the most by presenting them in visually engaging formats through rich data correlation and statistical representations including widgets, pie charts and even data calendars.
                             <br><br>It is also developed to give you a clear picture of real-time cash flow that could save a lot of time, resources and operational costs incurred in handling multiple teams under multiple wings. <br><br>
                             Since they offer complete integration assistance, you can practically bring all your finance and accounting data under one roof.
