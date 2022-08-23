@@ -115,6 +115,9 @@
 <script>
     {!! $be->custom_js !!}
 </script>
+<script>
+    {!! $be->custom_js !!}
+</script>
 
     @if (session()->has('success'))
     <script>

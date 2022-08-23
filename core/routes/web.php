@@ -31,6 +31,7 @@ Route::domain($domain)->group(function() {
         Route::get('/pricing', 'Front\FrontendController@pricing')->name('front.pricing');
         Route::get('/modules-one', 'Front\FrontendController@modulesone')->name('front.modulesone');
         Route::get('/modules-two', 'Front\FrontendController@modulestwo')->name('front.modulestwo');
+        Route::get('/aboutus', 'Front\FrontendController@about1')->name('front.about1');
         Route::get('/blog-details/{slug}/{id}', 'Front\FrontendController@blogdetails')->name('front.blogdetails');
         Route::get('/registration/step-1/{status}/{id}', 'Front\FrontendController@step1')->name('front.register.view');
         Route::get('/check/{username}/username', 'Front\FrontendController@checkUsername')->name('front.username.check');

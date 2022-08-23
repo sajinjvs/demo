@@ -266,6 +266,13 @@ class FrontendController extends Controller
         return view('front.modules-one');
     }
 
+    public function about1(Request $request)
+    {
+
+
+        return view('front.about1');
+    }
+
 
     public function modulestwo(Request $request)
     {
